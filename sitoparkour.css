@@ -1,0 +1,395 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.header-links {
+  display: flex;
+  justify-content: center;
+  padding-left: 50px;
+}
+
+.header-link {
+  margin: 0 25px;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+.logo .titolo1 {
+  margin-left: 20px;
+}
+
+.socials {
+  display: flex;
+}
+
+.socials a img {
+  height: 50px;
+}
+
+.fascia1 {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.immagine1 {
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.immagine1 img {
+  height: 100%;
+  width: auto;
+}
+
+.titolo1 {
+  text-align: center;
+  color: white;
+  top: 18px;
+}
+
+.fascia2 {
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-color: black;
+  border-width: 10px;
+  border-style: solid;
+  border-bottom-width: 0px;
+  padding: 30px;
+}
+
+.testo1 {
+  padding: 0 40px;
+}
+
+.immagine4 {
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.immagine5 {
+  height: 230px;
+}
+
+.immagine5 img {
+  height: 100%;
+  width: auto;
+}
+
+.immagine6 {
+  height: 300px;
+}
+
+.immagine6 img {
+  height: 100%;
+  width: auto;
+}
+
+.fascia3 {
+  background-color: #9c9c9c;
+  border-color: black;
+  border-width: 10px;
+  border-style: solid;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.immagine7 {
+  height: 200px;
+  padding-right: 250px;
+}
+
+.immagine7 img {
+  height: 100%;
+  width: auto;
+}
+
+.testo2 {
+  font-size: 100%;
+  margin-left: 10%;
+  line-height: 20px;
+  border-color: gray;
+  border-left-style: solid;
+  border-width: 6px;
+  padding-left: 15px;
+}
+
+.orario {
+  width: 80px;
+  height: 30px;
+  background-color: black;
+  top: 90px;
+  left: 610px;
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.luogo {
+  width: 150px;
+  height: 30px;
+  background-color: black;
+  top: 90px;
+  right: 500px;
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.iscrizione {
+  width: 70px;
+  height: 30px;
+  background-color: black;
+  top: 90px;
+  right: 415px;
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.covid-19 {
+  width: 140px;
+  height: 30px;
+  background-color: black;
+  top: 90px;
+  right: 260px;
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.coloretext1 {
+  color: white;
+}
+
+.coloretext2 {
+  color: white;
+}
+
+.coloretext3 {
+  color: white;
+}
+
+.coloretext4 {
+  color: white;
+}
+
+.coloretext5 {
+  color: white;
+  padding-left: 10px;
+}
+
+.headband {
+  min-height: 350px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.headband1 {
+  background-color: black;
+  padding: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.headband2 {
+  background-color: gray;
+  padding: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.text1 {
+  border-left-style: double;
+  border-width: 5px;
+  border-color: black;
+  padding-left: 15px;
+}
+
+.headband3 {
+  background-color: rgba(0, 0, 0, 0.63);
+  padding: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.text2 {
+  border-left-style: double;
+  border-width: 5px;
+  border-color: black;
+  padding-left: 15px;
+}
+
+.headband4 {
+  background-color: gray;
+  padding: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.text3 {
+  border-left-style: double;
+  border-width: 5px;
+  border-color: black;
+  padding-left: 15px;
+}
+
+.headband5 {
+  background-color: rgba(0, 0, 0, 0.63);
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: flex-start;
+}
+
+.social {
+  min-height: 300px;
+  display: flex;
+  flex-direction: row;
+}
+
+.youtube {
+  border-radius: 10px 10px 10px 10px;
+  overflow: hidden;
+}
+
+.title {
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.orarilezioni {
+  color: white;
+  margin-top: 50px;
+}
+
+.image1 {
+  box-shadow: 0 0 15px black;
+}
+
+.image1 img {
+  width: 500px;
+  height: 300px;
+  object-fit: cover;
+  margin: 0;
+}
+
+.title-Covid {
+  min-height: 350px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.txtI {
+  color: white;
+}
+
+.banda1 {
+  min-height: 320px;
+  background-color: rgba(0, 0, 0, 0.63);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 80px;
+}
+
+.bordtext {
+  border-left-style: solid;
+  border-width: 5px;
+  border-color: rgba(0, 0, 0, 0.712);
+  padding-left: 15px;
+}
+
+.tex {
+  padding-top: 70px;
+}
+
+.mask {
+  height: 300px;
+  width: auto;
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 20px;
+  padding-right: 50px;
+}
+
+.banda2 {
+  height: 350px;
+  background-color: #808080;
+  border-top: black;
+  border-top-style: solid;
+  border-width: 10px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 80px;
+  padding-right: 120px;
+}
+
+.bordertext1 {
+  border-left-style: solid;
+  border-width: 5px;
+  border-color: black;
+  padding-left: 15px;
+}
+
+.tex1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.luogotampone {
+  border-style: solid;
+  border-width: 7px;
+  border-color: black;
+}
+
+.interagire {
+  min-height: 320px;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bandacommenti {
+  margin: auto;
+}

@@ -1,0 +1,51 @@
+@media screen and (max-width: 768px) {
+  .fascia1 {
+    display: block;
+    width: 100%;
+  }
+
+  .fascia2 {
+    display: block;
+    width: 100%;
+  }
+
+  .fascia3 {
+    display: block;
+    width: 100%;
+  }
+
+  .headband1 {
+    display: block;
+    width: 100%;
+  }
+
+  .headband2 {
+    display: block;
+    width: 100%;
+  }
+
+  .headband3 {
+    display: block;
+    width: 100%;
+  }
+
+  .headband4 {
+    display: block;
+    width: 100%;
+  }
+
+  .title-covid {
+    display: block;
+    width: 100%;
+  }
+
+  .banda1 {
+    display: block;
+    width: 100%;
+  }
+
+  .banda2 {
+    display: block;
+    width: 100%;
+  }
+}
