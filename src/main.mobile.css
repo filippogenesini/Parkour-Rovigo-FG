@@ -1,0 +1,31 @@
+@media screen and (max-width: 768px) {
+  .fascia1 {
+    display: none;
+  }
+  .fascia2 {
+    flex-direction: column;
+  }
+  .testo1 {
+    padding: 0;
+  }
+
+  .flex {
+    flex-direction: column;
+  }
+
+  .testo2 {
+    margin: 0;
+  }
+
+  .headband {
+    flex-direction: column;
+  }
+
+  .banda1 {
+    flex-direction: column;
+  }
+
+  .banda2 {
+    flex-direction: column;
+  }
+}

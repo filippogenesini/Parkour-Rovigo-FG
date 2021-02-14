@@ -1,0 +1,5 @@
+# Escludiamo la cartella dei pacchetti installati da yarn
+node_modules
+
+# Escludiamo da git la cartella del sito che viene generata da snowpack
+build
