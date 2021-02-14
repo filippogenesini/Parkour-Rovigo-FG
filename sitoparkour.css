@@ -410,6 +410,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  margin: auto;
 }
 
 .title {
@@ -420,7 +421,11 @@ body {
 }
 
 .video {
-  background-color: rgb(168, 158, 158);
+  border-radius: 10%;
+  overflow: hidden;
+  border-color: #808080;
+  border-width: 3px;
+  border-style: solid;
 }
 
 .slide {
@@ -430,19 +435,26 @@ body {
 }
 
 .container {
-  width: 600px;
-  height: 327px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   position: relative;
+  border-color: #808080;
+  border-width: 3px;
+  border-style: solid;
 }
 
-.firs-timg {
+.first-img {
   max-height: 327px;
+  position: absolute;
 }
 
-.firs-timg {
+.second-img {
+  max-height: 327px;
+  position: absolute;
+}
+
+.third-img {
   max-height: 327px;
   position: absolute;
 }
