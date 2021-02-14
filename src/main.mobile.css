@@ -1,51 +1,31 @@
 @media screen and (max-width: 768px) {
   .fascia1 {
-    display: block;
-    width: 100%;
+    display: none;
   }
-
   .fascia2 {
-    display: block;
-    width: 100%;
+    flex-direction: column;
+  }
+  .testo1 {
+    padding: 0;
   }
 
-  .fascia3 {
-    display: block;
-    width: 100%;
+  .flex {
+    flex-direction: column;
   }
 
-  .headband1 {
-    display: block;
-    width: 100%;
+  .testo2 {
+    margin: 0;
   }
 
-  .headband2 {
-    display: block;
-    width: 100%;
-  }
-
-  .headband3 {
-    display: block;
-    width: 100%;
-  }
-
-  .headband4 {
-    display: block;
-    width: 100%;
-  }
-
-  .title-covid {
-    display: block;
-    width: 100%;
+  .headband {
+    flex-direction: column;
   }
 
   .banda1 {
-    display: block;
-    width: 100%;
+    flex-direction: column;
   }
 
   .banda2 {
-    display: block;
-    width: 100%;
+    flex-direction: column;
   }
 }
