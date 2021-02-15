@@ -1,6 +1,6 @@
 html,
 body {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-size: 16px;
   line-height: 1.8rem;
   height: auto;
@@ -14,7 +14,7 @@ body {
 }
 
 .font-title {
-  font-family: 'Lexend Mega', sans-serif;
+  font-family: "Lexend Mega", sans-serif;
 }
 
 .container {
@@ -31,12 +31,101 @@ body {
 .header-links {
   display: flex;
   justify-content: center;
-  padding-left: 50px;
+  width: 100%;
 }
 
 .header-link {
-  margin: 0 25px;
+  padding: 25px;
   text-decoration: none;
+}
+
+.home {
+  text-decoration: none;
+  padding-right: 25px;
+}
+
+.home :hover {
+  background-color: white;
+  color: black;
+  transition: 0.5s;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 10px;
+  border: none;
+}
+
+.palestra {
+  text-decoration: none;
+  padding-right: 25px;
+}
+
+.palestra :hover {
+  background-color: white;
+  color: black;
+  transition: 0.5s;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 10px;
+}
+
+.iscrizione {
+  text-decoration: none;
+  padding-right: 25px;
+}
+
+.iscrizione :hover {
+  background-color: white;
+  color: black;
+  transition: 0.5s;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 10px;
+}
+
+.orari {
+  text-decoration: none;
+  padding-right: 25px;
+}
+
+.orari :hover {
+  background-color: white;
+  color: black;
+  transition: 0.5s;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 10px;
+}
+
+.presentazione {
+  text-decoration: none;
+  padding-right: 25px;
+}
+
+.presentazione :hover {
+  background-color: white;
+  color: black;
+  transition: 0.5s;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 10px;
+}
+
+.contatti {
+  text-decoration: none;
+  padding-right: 25px;
+}
+
+.contatti :hover {
+  background-color: white;
+  color: black;
+  transition: 0.5s;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 10px;
+}
+
+.menu {
+  display: none;
 }
 
 .header-top {
@@ -179,9 +268,6 @@ body {
   background-color: black;
   top: 90px;
   right: 415px;
-  border-color: black;
-  border-style: solid;
-  border-width: 2px;
 }
 
 .covid-19 {
@@ -239,7 +325,6 @@ body {
   padding: 50px;
   padding-left: 50px;
   padding-right: 50px;
-
 }
 
 .text1 {
@@ -255,7 +340,6 @@ body {
   padding: 50px;
   padding-left: 50px;
   padding-right: 50px;
-
 }
 
 .text2 {
@@ -270,7 +354,6 @@ body {
   padding: 50px;
   padding-left: 50px;
   padding-right: 50px;
-
 }
 
 .text3 {
@@ -331,8 +414,6 @@ body {
   padding-right: 60px;
 }
 
-
-
 .txtI {
   color: white;
   text-align: center;
@@ -370,7 +451,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 16px;;
+  padding: 16px;
 }
 
 .bordertext1 {

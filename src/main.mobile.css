@@ -1,7 +1,32 @@
 @media screen and (max-width: 768px) {
   .fascia1 {
+  }
+
+  .header-links {
+    padding-top: 20px;
+    width: 100%;
+    padding-top: 30px;
+  }
+
+  .header-link {
+    padding: 0;
+  }
+
+  .tendina {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .menu {
+    text-decoration: none;
+  }
+
+  .socials {
     display: none;
   }
+
   .fascia2 {
     flex-direction: column;
   }
@@ -27,5 +52,24 @@
 
   .banda2 {
     flex-direction: column;
+  }
+
+  .container {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .flex {
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+  }
+
+  .image1 img {
+    width: 100px;
+  }
+
+  .image2 {
+    padding: 0;
   }
 }
