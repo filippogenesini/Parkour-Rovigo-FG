@@ -6,11 +6,10 @@
     <meta name="description" content="Sito Parkour Rovigo" />
     <title>Sito Parkour Rovigo</title>
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Lexend+Mega&family=Ubuntu&display=swap');
+      @import url("https://fonts.googleapis.com/css2?family=Lexend+Mega&family=Ubuntu&display=swap");
     </style>
     <link rel="stylesheet" href="./main.css" />
     <link rel="stylesheet" href="./main.mobile.css" />
-    <link rel="stylesheet" href="./main.mobile.js" />
   </head>
   <body>
     <div class="fascia1">
@@ -50,14 +49,11 @@
           </a>
         </div>
       </div>
-
-      <div class="header-links">
-            <div class="tendina">
-              <H3><a class="menu" ><span class="coloretext1"> Menu </span></a
-            ></H3>
-
-          <a href="#home" class="home"><span class="coloretext1"> Home </span></a
-            >
+      <div class="flex">
+        <a id="js-menu" class="menu">Menu</a>
+      </div>
+      <div id="js-tendina" class="header-links nascosto">
+        <a href="#home" class="home"><span class="coloretext1"> Home </span></a>
 
         <a
           class="palestra"
@@ -72,15 +68,16 @@
           target="blank"
           ><span class="coloretext3">Iscrizione</span></a
         >
-        <a href="#orari" class="orari"><span class="coloretext1"> Orari </span></a
-          >
+        <a href="#orari" class="orari"
+          ><span class="coloretext1"> Orari </span></a
+        >
         <a href="#dimostrazioni" class="presentazione"
           ><span class="coloretext4">Dimostrazioni</span></a
         >
 
-        <a href="#contact" class="contatti"><span class="coloretext1"> Contatti </span></a
-        ></div>
-
+        <a href="#contact" class="cont"
+          ><span class="coloretext1"> Contatti </span></a
+        >
       </div>
     </div>
 
@@ -95,14 +92,15 @@
           <div class="testo1">
             <h3 class="font-title">Chi siamo?</h3>
             <p>
-              Siamo dei giovani ragazzi con una passione per uno sport e che cercano
-              di trasmettere cos'è il parkour
+              Siamo dei giovani ragazzi con una passione per uno sport e che
+              cercano di trasmettere cos'è il parkour
             </p>
             <h3 class="font-title">Che cos'è il parkour</h3>
             <p>
-              Il parkour è uno sport estremo nato in Francia a partire dalla metà
-              degli anni ‘80. Consiste nell'abilità di compiere un percorso partendo da un punto A e
-              arrivando ad un punto B, superando qualsiasi genere di ostacolo nel miglior modo possibile.
+              Il parkour è uno sport estremo nato in Francia a partire dalla
+              metà degli anni ‘80. Consiste nell'abilità di compiere un percorso
+              partendo da un punto A e arrivando ad un punto B, superando
+              qualsiasi genere di ostacolo nel miglior modo possibile.
             </p>
           </div>
         </div>
@@ -111,38 +109,45 @@
     <div class="fascia3">
       <div class="container">
         <div class="flex">
-      <div class="testo2">
-        <h3 class="font-title">Come si svolge il nostro allenamento:</h3>
+          <div class="testo2">
+            <h3 class="font-title">Come si svolge il nostro allenamento:</h3>
 
-        <p>
-          Un allenamento si svolge partendo con un riscaldamento articolare di ogni parte del corpo per evitare fratture storte o strappi. A livello muscolo-scheletrico, lo stretching aumenta l'elasticità dei muscoli e dei tendini, con un miglioramento globale della capacità
-          di movimento. È un'ottima forma di prevenzione delle contratture muscolari. In alcuni casi diminuisce la sensazione di fatica e può prevenire traumi muscolari e articolari.
-        </p>
+            <p>
+              Un allenamento si svolge partendo con un riscaldamento articolare
+              di ogni parte del corpo per evitare fratture storte o strappi. A
+              livello muscolo-scheletrico, lo stretching aumenta l'elasticità
+              dei muscoli e dei tendini, con un miglioramento globale della
+              capacità di movimento. È un'ottima forma di prevenzione delle
+              contratture muscolari. In alcuni casi diminuisce la sensazione di
+              fatica e può prevenire traumi muscolari e articolari.
+            </p>
+          </div>
+          <div class="immagine7">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSzxG193v_K_XQdNQdmUCbDr1my41nc4Ns6tQ&usqp=CAU"
+            />
+          </div>
+        </div>
       </div>
-      <div class="immagine7">
-        <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSzxG193v_K_XQdNQdmUCbDr1my41nc4Ns6tQ&usqp=CAU"
-        />
-      </div>
     </div>
-    </div>
-    </div>
-
-
 
     <div class="headband headband2">
       <div class="container">
         <div class="flex">
           <div class="text1">
             <p>Allenati con il peso del tuo corpo.</p>
-            <p>Nient'altro ti allenerà a muovere e spingere il tuo corpo nell'ambiente come allenarti con il suo peso dall'inizio.</p>
+            <p>
+              Nient'altro ti allenerà a muovere e spingere il tuo corpo
+              nell'ambiente come allenarti con il suo peso dall'inizio.
+            </p>
             <p>
               Se non puoi farlo, fai quello che puoi. Cerca sopratutto di
               migliorarti.
             </p>
             <p>
               Se riesci a svolgere tutto l'allenamento, aumenta costantemente il
-              numero di ripetizioni e di serie poco alla volta.</p>
+              numero di ripetizioni e di serie poco alla volta.
+            </p>
           </div>
           <div class="image1">
             <img
@@ -160,7 +165,11 @@
           </div>
           <div class="text2">
             <p>Corri spesso. Dovresti correre almeno 11-16 km a settimana.</p>
-            <p>Correre è una componente molto importante del parkour, e dovresti essere in grado di farlo per lunghe distanze e scattare velocemente.</p>
+            <p>
+              Correre è una componente molto importante del parkour, e dovresti
+              essere in grado di farlo per lunghe distanze e scattare
+              velocemente.
+            </p>
           </div>
         </div>
       </div>
@@ -171,10 +180,10 @@
         <div class="flex">
           <div class="text3">
             <p>
-              Lo stretching è un'attività che consiste nell'allungare la muscolatura
-              prima e dopo un sessione di attività fisica in palestra. Praticarlo in
-              maniera costante è utile per aumentare la flessibilità e l'elasticità dei muscoli e dei
-              tendini.
+              Lo stretching è un'attività che consiste nell'allungare la
+              muscolatura prima e dopo un sessione di attività fisica in
+              palestra. Praticarlo in maniera costante è utile per aumentare la
+              flessibilità e l'elasticità dei muscoli e dei tendini.
             </p>
           </div>
           <div class="image3">
@@ -185,7 +194,6 @@
         </div>
       </div>
     </div>
-
 
     <div id="orari" class="headband _orari_">
       <div class="title">
@@ -210,12 +218,13 @@
               Gli oggetti da portare agli allenamenti per rispettare il
               dimostrazioni e <br />
               per salvaguardare la salute della collettività: <br />
-              <ul>
-                <li>Mascherina</li>
-                <li>Proprio igenizzante per le mani</li>
-                <li>Scarpe diverse da quelle che si usano tutti i giorni</li>
-              </ul>
             </p>
+
+            <ul>
+              <li>Mascherina</li>
+              <li>Proprio igenizzante per le mani</li>
+              <li>Scarpe diverse da quelle che si usano tutti i giorni</li>
+            </ul>
           </div>
           <div class="mask">
             <img
@@ -232,17 +241,20 @@
           <div class="tex1">
             <div class="bordertext1">
               <h3 class="font-title">
-                Se si presentano i seguenti sintomi cheidiamo di avvisare a uno dello staff consigliamo di fare il tampone rapido gratuito
+                Se si presentano i seguenti sintomi cheidiamo di avvisare a uno
+                dello staff consigliamo di fare il tampone rapido gratuito
               </h3>
 
               <ul>
                 <li>Tosse;</li>
                 <li>Mal di gola;</li>
                 <li>Febbre tra i 38°C e i 39°C;</li>
-                <li>Infiammazione delle mucose nasali, della gola e dei bronchi;</li>
+                <li>
+                  Infiammazione delle mucose nasali, della gola e dei bronchi;
+                </li>
                 <li>Cefalea;</li>
                 <li>Perdita di appetito;</li>
-                <li>Senso di malessere generale. </li>
+                <li>Senso di malessere generale.</li>
               </ul>
             </div>
           </div>
@@ -257,8 +269,8 @@
                 allowfullscreen=""
                 aria-hidden="false"
                 tabindex="0"
-              ></iframe
-            ></div>
+              ></iframe>
+            </div>
           </div>
         </div>
       </div>
@@ -276,22 +288,19 @@
       </div>
     </div>
 
-    <!--
-    <div class="container">
-      <img
-        class="firs-timg"
-        src="https://www.rovigooggi.it/fls/uploads/news/2020-07/parkour-2.jpg"
-      />
-      <img
-        class="second-img"
-        src="https://www.agorasportonline.it/wp-content/uploads/2020/07/DASH-IN-GIU-AL-PALAZZETTO-600x372.png"
-      />
-    </div>
-
-    <video src="https://youtu.be/ly65Ahinjc0" controls height="300px" width="300px">
+    <video
+      src="https://youtu.be/ly65Ahinjc0"
+      controls
+      height="300px"
+      width="300px"
+    >
       <source src="https://youtu.be/ly65Ahinjc0" type="video/mp4" />
       <source src="https://youtu.be/ly65Ahinjc0" type="video/ogg" />
       <source src="https://youtu.be/ly65Ahinjc0" type="video/mpeg" />
-    </video> -->
+    </video>
+
+    <div class="contatti"></div>
+
+    <script src="./main.js"></script>
   </body>
 </html>
